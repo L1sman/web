@@ -1,0 +1,81 @@
+.container {
+  max-width: 1200px;
+  padding: 40px 15px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 150px;
+  background-color:rgb(77, 136, 220);
+  color: transparent;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color, 0.3s, color 0.1s, transform 0.2s;
+  cursor: pointer;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card.chosed {
+  background-color: rgb(213, 216, 50);
+  color: black;
+}
+
+.card.matched {
+  background-color: rgb(39, 196, 39);
+  color: inherit;
+  transform: scale(0.9);
+}
+
+.input {
+  margin-bottom: 30px;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+
+.field-width-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 220px;
+}
+
+.field-width-default {
+  display: flex;
+  flex-wrap: wrap;
+  width: 440px;
+}
+
+.field-width-6 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 660px;
+}
+
+
+.field-width-8 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 880px;
+}
+
+.field-width-10 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+}
+
+.hide {
+  display: none;
+}

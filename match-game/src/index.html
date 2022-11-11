@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Game</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+          });
+  </script>
+</head>
+<body>
+  <section class="main">
+    <div class="container" id="container" >
+      <h1>Match game</h1>
+      <div>
+        <label > Введите количество карточек по вертикали/горизонтали
+          <input class="input" type="number" min="2" max="10" id="inp">
+        </label>
+      </div>
+      <button class="btn" id="btn">Начать!</button>
+      <div class="card__field" id="field">
+      </div>
+      <button class="restart__btn hide" id="re-btn">Сыграть еще!</button>
+    </div>
+  </section>
+  <script defer type="module" src="./main.js">
+
+  </script>
+</body>
+</html>
